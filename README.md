@@ -5,7 +5,7 @@ Home: https://github.com/usnistgov/pycdcs
 
 Package license: OTHER
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Python API client for performing REST calls to configurable data curation system (CDCS) databases
 
