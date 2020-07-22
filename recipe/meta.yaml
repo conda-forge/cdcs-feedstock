@@ -1,5 +1,5 @@
 {% set name = "cdcs" %}
-{% set version = "0.1.1" %}
+{% set version = "0.1.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: d0f5a7de7f7da6b2928b3e30962ea3fec3e8d77105742ea67336f8325590a415
+  sha256: d73a4940c863883331877dd828939cd60d24f9c2b05c3ab8ab24cd00192b1c5b
 
 build:
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
   noarch: python
 
 requirements:
@@ -33,7 +33,7 @@ about:
   license: OTHER
   license_family: OTHER
   license_file: LICENSE.TXT
-  summary: 'Python API client for performing REST calls to configurable data curation system (CDCS) databases'
+  summary: Python API client for performing REST calls to configurable data curation system (CDCS) databases
   description: |
     Python API client for performing REST calls to configurable data curation system (CDCS) databases
   doc_url: https://github.com/usnistgov/pycdcs
