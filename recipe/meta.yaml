@@ -1,5 +1,5 @@
 {% set name = "cdcs" %}
-{% set version = "0.1.9" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: eeefa60c768f546afbd177d70023e4afb81b46307e49b28a545b9386132dcef2
+  sha256: b5ab875e81b79a06c77b04e14b7ee29ff5d2a80c7c69faeed5c1ccb3062bd7ca
 
 build:
   number: 0
