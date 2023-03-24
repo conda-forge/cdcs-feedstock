@@ -1,11 +1,11 @@
-About cdcs
-==========
+About cdcs-feedstock
+====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/cdcs-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/usnistgov/pycdcs
 
 Package license: NIST-PD
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/cdcs-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python API client for performing REST calls to configurable data curation system (CDCS) databases
 
