@@ -16,16 +16,19 @@ build:
 
 requirements:
   host:
-    - python >=3.7
+    - python {{ python_min }}
     - pip
+    - setuptools
   run:
-    - python >=3.7
+    - python >={{ python_min }}
     - pandas
     - requests
     - ipython
     - tqdm
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - cdcs
 
