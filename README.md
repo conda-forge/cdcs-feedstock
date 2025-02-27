@@ -152,6 +152,3 @@ Feedstock Maintainers
 
 * [@lmhale99](https://github.com/lmhale99/)
 
-
-<!-- dummy commit to enable rerendering -->
-
