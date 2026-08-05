@@ -18,7 +18,7 @@ requirements:
   host:
     - python {{ python_min }}
     - pip
-    - setuptools
+    - uv_build
   run:
     - python >={{ python_min }}
     - pandas
@@ -34,7 +34,7 @@ test:
 
 about:
   home: https://github.com/usnistgov/pycdcs
-  license: NIST-PD
+  license: NIST-Software
   license_file: LICENSE.TXT
   summary: Python API client for performing REST calls to configurable data curation system (CDCS) databases
   description: |
